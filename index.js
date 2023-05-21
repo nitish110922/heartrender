@@ -1,7 +1,7 @@
 
 const bodyEl = document.querySelector("body");
 
-bodyEl.addEventListener("mousemove", (event) => {
+bodyEl.addEventListener("touch", (event) => {
   const xPos = event.clientX;
   const yPos = event.clientY;
   const spanEl = document.createElement("span");
